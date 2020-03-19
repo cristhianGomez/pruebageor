@@ -13,7 +13,7 @@
         color="red-text"
 
       >
-     <v-subheader style="justify-content: flex-end;">
+     <v-subheader  v-if="!['xs','sm'].includes($vuetify.breakpoint.name)" style="justify-content: flex-end;">
         <v-btn class="mx-2" fab dark x-small color="red" @click="hideSideBar">
       <v-icon dark>{{iconarrow}}</v-icon>
     </v-btn>

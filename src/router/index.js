@@ -14,6 +14,16 @@ const routes = [
     path: '/indicadores',
     name: 'Indicadores',
     component: () => import(/* webpackChunkName: "about" */ '../components/pages/Indicaciones.vue')
+  },
+  {
+    path: '/Compras',
+    name: 'compras',
+    component: () => import(/* webpackChunkName: "about" */ '../components/pages/compras.vue')
+  },
+   {
+    path: '/Ventas',
+    name: 'ventas',
+    component: () => import(/* webpackChunkName: "about" */ '../components/pages/ventas.vue')
   }
 ]
 

@@ -13,9 +13,9 @@
       </mdb-row>
        <transition
 				name="main-anim"
-				enter-active-class="animated fadeIn"
-				leave-active-class="fateOut"
-        mode="out-in"
+				enter-active-class="animated fadeIn 1s"
+        
+				leave-active-class="fateOut 1s"
 			>
 				<router-view>
           
