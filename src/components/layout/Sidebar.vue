@@ -25,7 +25,7 @@
           @click="updateName(item.title)"
         >
           <v-list-item-content v-if="!icons" >
-            <v-list-item-title>{{ item.title }}</v-list-item-title>
+            <v-list-item-title class="ml-2">{{ item.title }}</v-list-item-title>
           </v-list-item-content>
        
           <v-list-item-icon class="mr-3">
